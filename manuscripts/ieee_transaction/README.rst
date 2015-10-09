@@ -47,3 +47,18 @@ Attribution 4.0 International License`_.
 .. _Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0
 
 If you make use of our work we ask that you cite us.
+
+
+References
+====================
+
+Moore et al. repository 
+
+https://github.com/csu-hmc/inverted-pendulum-sys-id-paper
+
+
+
+Unix LaTeX2e Transactions Style File (TAR.GZ, 655 KB)
+
+http://www.ieee.org/publications_standards/publications/authors/author_templates.html
+
