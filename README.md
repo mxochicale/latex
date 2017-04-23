@@ -6,6 +6,8 @@ This is the source repository for my latex templates.
 
 #### ./install_texlive.sh
 
+chmod +x install_texlive.sh 
+
 ```
 ./install_texlive.sh
 cd ~/tmplatex/install-tl-XXXXxxXX
