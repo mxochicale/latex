@@ -37,7 +37,7 @@ all:
 	$(LATEX) $(FILENAME).tex
 	evince $(FILENAME).pdf &
 	@echo "================================================"
-	@echo "All done! report.pdf has been created. - Miguel"
+	@echo "All done! report.pdf has been created. "
 	@echo "================================================"
 
 clean:         
@@ -47,21 +47,5 @@ clean:
 	echo "Cleaning complete!"
 
 
-
-# all: 
-# 	$(LATEX) $(FILENAME).tex
-# 	$(BIB) $(FILENAME)
-# 	$(LATEX) $(FILENAME).tex
-# 	$(LATEX) $(FILENAME).tex
-# 	evince $(FILENAME).pdf &
-# 	@echo "================================================"
-# 	@echo "All done! report.pdf has been created. - Miguel"
-# 	@echo "================================================"
-
-# clean:         
-# 	rm -f *~
-# 	rm -rf *.backup
-# 	rm -f `ls $(FILENAME).* | grep -v .tex | grep -v .pdf`
-# 	echo "Cleaning complete!"
 
 
