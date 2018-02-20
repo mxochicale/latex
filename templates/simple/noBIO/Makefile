@@ -1,29 +1,35 @@
 fileinfo := LaTeX Makefile
 author := Miguel P. Xochicale
-version := alpha1
+version := alpha2
 
-FILENAME = file
+
+## make TEXFILE=base (no tex file extension)
+## make clean TEXFILE=filename (no tex file extension)
+
+ALLTEX = $(wildcard *.tex)
+TEXFILE = $(basename $(ALLTEX))
+
+# TEXFILE = main
 LATEX = pdflatex -shell-escape -interaction=nonstopmode -file-line-error
 BIB = bibtex
 
 all:
-	$(LATEX) $(FILENAME).tex
-	$(LATEX) $(FILENAME).tex
-	#(BIB) $(FILENAME)
-	# $(BIB) $(FILENAME)
-	$(LATEX) $(FILENAME).tex
-	$(LATEX) $(FILENAME).tex
-	evince $(FILENAME).pdf &
+	$(LATEX) $(TEXFILE).tex
+	$(LATEX) $(TEXFILE).tex
+	#$(BIB) $(TEXFILE)
+	#$(BIB) $(TEXFILE)
+	$(LATEX) $(TEXFILE).tex
+	$(LATEX) $(TEXFILE).tex
 	@echo "================================================"
-	@echo "All done! pdf file has been created".
+	@echo "All done! pdf file has been created. "
 	@echo "================================================"
+	evince $(TEXFILE).pdf &
 
 clean:
-	rm -f *~
-	rm -rf *.backup
-	rm -f `ls $(FILENAME).* | grep -v .tex`
-	echo "Cleaning complete!"
+	rm -f *.aux *.bbl *.blg *.log *.out *.pdf 
+	rm -f *.backup
+	@echo "================================================"
+	@echo "All cleaned!  "
+	@echo "================================================"
 
-
-
-#rm -f `ls $(FILENAME).* | grep -v .tex | grep -v .pdf`
+	

@@ -2,11 +2,18 @@ Makefiles
 ---
 
 
+# USAGE
+
+```
+make
+```
+```
+make clean
+```
+
+* Use these [templates](https://github.com/mxochicale/LaTeX/tree/master/templates/simple) to test the Makefile.
 
 
-# Further References
-* http://www.cs.berkeley.edu/~jaein/notes/Makefile.pdflatex
-* https://tex.stackexchange.com/questions/40738/how-to-properly-make-a-latex-project
-* https://scaron.info/blog/makefiles-for-latex.html
-
+# TODO
+* Check out the [logBook](https://github.com/mxochicale/LaTeX/blob/master/Makefiles/logBOOK.md).
 
