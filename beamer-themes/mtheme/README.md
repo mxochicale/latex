@@ -1,4 +1,4 @@
-## Beamer mtheme
+## Beamer mtheme [fgrelard/mtheme](https://github.com/fgrelard/mtheme), [ORIGINAL: matze/mtheme](https://github.com/matze/mtheme)
 
 The *mtheme* is a Beamer theme with minimal visual. The core design principles
 of the theme were described in a [blog post](http://bloerg.net/2014/09/20/a-modern-beamer-theme.html).
