@@ -1,12 +1,6 @@
 #!/bin/bash
 # Miguel Xochicale
 
-#####################################
-# chmod +x *.sh
-# USAGE:
-# ./append_texbinaries_to_bashrc.sh
-
-
 cd $HOME
 {
 echo ''
@@ -20,3 +14,5 @@ echo ''
 } >> .bashrc
 
 source $HOME/.bashrc
+
+

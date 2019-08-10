@@ -1,13 +1,15 @@
 #!/bin/bash
 # Miguel Xochicale
 
-## how to run
-# chmod +x .sh
-# ./.sh
+
+################
+### References
+# http://tex.stackexchange.com/questions/254669/upgrading-tex-live-from-2013-to-2015-on-ubuntu-14-04
 
 
-#INSTALLED VERSIONS
-#TeX Live 2019 -- 51056
+##################################
+## LOGBOOK FOR INSTALLED VERSIONS
+# TeX Live 2019 -- 51056
 # install-tl-20180830
 # install-tl-20170620
 # install-tl-20151030
@@ -26,7 +28,7 @@ echo "  This a little shell script to install the latest version of TeX Live"
 echo
 echo
 
-mkdir -p $HOME/tmplatex && cd $HOME/tmplatex
+mkdir -p $HOME/tmp/latex && cd $HOME/tmp/latex
 wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 tar -xf install-tl-unx.tar.gz
 rm install-tl-unx.tar.gz
@@ -35,7 +37,6 @@ rm install-tl-unx.tar.gz
 cd install-tl-*
 sudo ./install-tl
 
-rm -rf $HOME/tmplatex
+rm -rf $HOME/tmp/latex
 
-### Sources
-# http://tex.stackexchange.com/questions/254669/upgrading-tex-live-from-2013-to-2015-on-ubuntu-14-04
+
