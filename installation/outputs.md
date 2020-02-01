@@ -1,6 +1,17 @@
 
+# Sat  1 Feb 20:36:01 GMT 2020
 
 
+```
+Add /usr/local/texlive/2019/texmf-dist/doc/man to MANPATH.
+Add /usr/local/texlive/2019/texmf-dist/doc/info to INFOPATH.
+Most importantly, add /usr/local/texlive/2019/bin/x86_64-linux
+to your PATH for current and future sessions.
+Logfile: /usr/local/texlive/2019/install-tl.log
+
+```
+
+`B_..` no change!
 
 # Thu 30 Aug 17:13:38 BST 2018
 
