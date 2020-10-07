@@ -1,3 +1,24 @@
+# Wed  7 Oct 23:26:11 BST 2020
+
+* on machine with ubuntu 18.04x64
+```
+sh A_install_texlive.sh
+...
+Installing [0317/4068, time/total: 01:59/23:45]: beameraudience [3k]
+Installing [0318/4068, time/total: 01:59/23:45]: beamerauxtheme [187k]
+Installing [0319/4068, time/total: 02:00/23:56]: beamercolorthemeowl [553k]
+Installing [0320/4068, time/total: 02:00/23:54]: beamerdarkthemes [1843k]
+...
+
+Add /usr/local/texlive/2020/texmf-dist/doc/man to MANPATH.
+Add /usr/local/texlive/2020/texmf-dist/doc/info to INFOPATH.
+Most importantly, add /usr/local/texlive/2020/bin/x86_64-linux
+to your PATH for current and future sessions.
+Logfile: /usr/local/texlive/2020/install-tl.log
+
+
+```
+
 
 # Sat  1 Feb 20:36:01 GMT 2020
 
