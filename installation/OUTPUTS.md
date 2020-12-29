@@ -1,3 +1,67 @@
+# Tue 29 Dec 20:07:10 GMT 2020
+
+* on machine with ubuntu 20.04x64
+```
+Installing to: /usr/local/texlive/2020 
+Installing [0001/4110, time/total: ??:??/??:??]: texlive.infra [423k]
+...
+Installing [4102/4110, time/total: 31:53/31:54]: zlmtt [48k]
+Installing [4103/4110, time/total: 31:54/31:55]: zootaxa-bst [139k]
+Installing [4104/4110, time/total: 31:54/31:55]: zref [687k]
+Installing [4105/4110, time/total: 31:55/31:55]: zwgetfdate [242k]
+Installing [4106/4110, time/total: 31:55/31:55]: zwpagelayout [630k]
+Installing [4107/4110, time/total: 31:56/31:56]: zxjafbfont [3k]
+Installing [4108/4110, time/total: 31:56/31:56]: zxjafont [181k]
+Installing [4109/4110, time/total: 31:56/31:56]: zxjatype [144k]
+Installing [4110/4110, time/total: 31:57/31:57]: zztex [147k]
+Time used for installing the packages: 31:57
+running mktexlsr /usr/local/texlive/2020/texmf-dist ...
+mktexlsr: Updating /usr/local/texlive/2020/texmf-dist/ls-R... 
+mktexlsr: Done.
+writing fmtutil.cnf to /usr/local/texlive/2020/texmf-dist/web2c/fmtutil.cnf
+writing updmap.cfg to /usr/local/texlive/2020/texmf-dist/web2c/updmap.cfg
+writing language.dat to /usr/local/texlive/2020/texmf-var/tex/generic/config/language.dat
+writing language.def to /usr/local/texlive/2020/texmf-var/tex/generic/config/language.def
+writing language.dat.lua to /usr/local/texlive/2020/texmf-var/tex/generic/config/language.dat.lua
+running mktexlsr /usr/local/texlive/2020/texmf-var /usr/local/texlive/2020/texmf-config /usr/local/texlive/2020/texmf-dist ...
+mktexlsr: Updating /usr/local/texlive/2020/texmf-config/ls-R... 
+mktexlsr: Updating /usr/local/texlive/2020/texmf-dist/ls-R... 
+mktexlsr: Updating /usr/local/texlive/2020/texmf-var/ls-R... 
+mktexlsr: Done.
+running updmap-sys --nohash ...done
+re-running mktexlsr /usr/local/texlive/2020/texmf-var /usr/local/texlive/2020/texmf-config ...
+mktexlsr: Updating /usr/local/texlive/2020/texmf-config/ls-R... 
+mktexlsr: Updating /usr/local/texlive/2020/texmf-var/ls-R... 
+mktexlsr: Done.
+setting up ConTeXt cache: running mtxrun --generate ...done
+pre-generating all format files, be patient...
+running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-strict --all ...done
+running package-specific postactions
+finished with package-specific postactions
+
+
+Welcome to TeX Live!
+
+
+See /usr/local/texlive/2020/index.html for links to documentation.
+The TeX Live web site (https://tug.org/texlive/) contains any updates and
+corrections. TeX Live is a joint project of the TeX user groups around the
+world; please consider supporting it by joining the group best for you. The
+list of groups is available on the web at https://tug.org/usergroups.html.
+
+
+Add /usr/local/texlive/2020/texmf-dist/doc/man to MANPATH.
+Add /usr/local/texlive/2020/texmf-dist/doc/info to INFOPATH.
+Most importantly, add /usr/local/texlive/2020/bin/x86_64-linux
+to your PATH for current and future sessions.
+Logfile: /usr/local/texlive/2020/install-tl.log
+```
+
+
+
+
+
+
 # Wed  7 Oct 23:26:11 BST 2020
 
 * on machine with ubuntu 18.04x64

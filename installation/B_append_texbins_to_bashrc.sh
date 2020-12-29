@@ -13,6 +13,3 @@ echo ''
 echo ''
 } >> .bashrc
 
-# source $HOME/.bashrc
-
-
